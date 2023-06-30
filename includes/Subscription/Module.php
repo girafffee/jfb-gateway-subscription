@@ -59,6 +59,10 @@ class Module {
 			break;
 		}
 
+		if ( ! $field_name ) {
+			return;
+		}
+
 		jet_fb_action_handler()->request_data[ $field_name ] = $id;
 	}
 

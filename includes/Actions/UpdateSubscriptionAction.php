@@ -52,7 +52,7 @@ class UpdateSubscriptionAction extends Base {
 		$resource = new Subscription( $subscription );
 
 		if (
-			current_user_can( 'manage_options' ) ||
+			! current_user_can( 'manage_options' ) &&
 			$resource->get_user()->ID !== get_current_user_id()
 		) {
 			throw new Action_Exception(
