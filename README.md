@@ -5,7 +5,7 @@ Recurring Payments](https://jetformbuilder.com/addons/paypal-recurring-payments/
 
 ## Usage
 ### Saving subscription ID
-Add hidden field with "Field value": - Gateway Subscription ID
+Add hidden field with "Field value": - Gateway Subscription ID. This field will store the ID of the newly created subscription. https://jetformbuilder.com/features/jetformbuilder-how-to-set-recurring-paypal-payments-in-wordpress-form/#how-to-create-form-with-plans
 
 ![image](./assets/img/hidden-field-settings.png)
 
