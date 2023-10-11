@@ -13,9 +13,6 @@ Add hidden field with "Field value": - Gateway Subscription ID. This field will 
 
 You can then use this field to save to your entity. It can be both a regular post and a user, CCT. There are corresponding actions for them - [Insert/Update Post](https://jetformbuilder.com/features/insert-update-post/), [Update User](https://jetformbuilder.com/features/update-user/) and [Insert Custom Content Type](https://crocoblock.com/knowledge-base/jetengine/how-to-insert-update-cct-via-form/).
 
-> This field will be incorrectly saved if you use it in action games with events `GATEWAY.SUCCESS` or `GATEWAY.FAILED`.
-That is, your action that stores the subscription ID must be performed on the event `DEFAULT.PROCESS` or `DEFAULT.STATE`.
-
 ### Cancel subscription
 Adjust the preset depending on which entity you want to store the subscription ID.
 
